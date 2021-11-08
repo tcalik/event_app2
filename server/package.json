@@ -1,0 +1,32 @@
+{
+  "name": "brainhubapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx jest --forceExit -- tests/App.test.js ",
+    "server-dev": "nodemon server.js",
+    "client-dev": "npm start --prefix client",
+    "dev": "concurrently \"npm run server-dev\" \"npm run client-dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "react-scripts": "^4.0.3",
+    "sequelize": "^6.8.0",
+    "tedious": "^14.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "supertest": "^6.1.6"
+  }
+}

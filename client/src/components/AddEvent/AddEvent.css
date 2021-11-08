@@ -1,0 +1,14 @@
+.eventCard{
+  margin: auto;
+  margin-top: 10%;
+  padding: 16px;
+}
+
+.titleTypo{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form{
+  margin-bottom: 15px;
+}
